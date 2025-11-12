@@ -1,4 +1,5 @@
 # Data Structures
+
 # Linear Search (Sequential Search)
 ## Aim : Write a program to conduct Linear search for a Key element over an array of n integer’s elements. Report Success or failure with appropriate message.
 ## Theory
