@@ -1,6 +1,6 @@
 # Data Structures
 # Linear Search (Sequential Search)
-# Aim : Write a program to conduct Linear search for a Key element over an array of n integer’s elements. Report Success or failure with appropriate message.
+## Aim : Write a program to conduct Linear search for a Key element over an array of n integer’s elements. Report Success or failure with appropriate message.
 ## Theory
 Linear search (also called sequential search) is a simple searching algorithm used to find a given element in a list. It checks each element of the list sequentially until the desired element is found or the list ends. Linear search works on both sorted and unsorted arrays but is less efficient on large datasets compared to binary search.
 
@@ -144,7 +144,7 @@ Linear search is a straightforward method to locate an element in an array by ch
 File: `linearsearch.c` (same directory as this markdown)
 
 # Binary Search
-# Aim: Write a program to conduct Binary search for a Key element over an array of n integer’s elements. Report Success or failure with appropriate message.
+## Aim: Write a program to conduct Binary search for a Key element over an array of n integer’s elements. Report Success or failure with appropriate message.
 
 ## Theory
 Binary search is an efficient algorithm for finding the position of a target value within a sorted array. It repeatedly divides the search interval in half: compare the target value to the middle element of the array; if they are not equal, decide which half of the array the target must lie in, then continue the search in that half. Because the search space halves each step, binary search runs in logarithmic time.
