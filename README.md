@@ -1,5 +1,6 @@
 # Data Structures
 ### Author - Prince Naware
+This is a list of few topics related to Data structures and their theory, syntax , algorithm and Conclusion.  
 # Linear Search (Sequential Search)
 ## Aim : Write a program to conduct Linear search for a Key element over an array of n integer’s elements. Report Success or failure with appropriate message.
 ## Theory
