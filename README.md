@@ -300,12 +300,4 @@ Binary search is ideal for fast lookups in sorted arrays. It reduces time comple
 
 File: `binarysearch.c` (same directory as this markdown)
 ---------------------------------------------------------------------------------
-#Selection Sort
-##Theory of Selection Sort
-Selection sort is a simple comparison-based sorting algorithm. It works by dividing the array into two parts: a sorted subarray (initially empty) and an unsorted subarray. In each iteration, it finds the minimum element from the unsorted portion and swaps it with the first element of the unsorted portion, effectively growing the sorted subarray by one element. This process repeats until the entire array is sorted.
 
-Time Complexity: O(n²) in all cases (best, average, worst), as it involves nested loops.
-Space Complexity: O(1), since it sorts in-place without extra space.
-Stability: Not stable (equal elements may not retain their relative order).
-Advantages: Simple to implement, performs well on small lists.
-Disadvantages: Inefficient for large datasets compared to algorithms like quicksort or mergesort.
