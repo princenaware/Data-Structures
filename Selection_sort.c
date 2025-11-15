@@ -1,3 +1,8 @@
+/*Aim: To implement Selection Sort algorithm in C.
+----------------------------------------------------------------------------------------
+
+*/
+
 #include <stdio.h>
 int main() {
     int arr[100], n, i, j, min, swap;
