@@ -1,6 +1,12 @@
 /*Aim: To implement Selection Sort algorithm in C.
 ----------------------------------------------------------------------------------------
-
+Selection Sort is an in-place comparison sorting algorithm that divides
+the input list into two parts: a sorted and an unsorted region. 
+It repeatedly selects the smallest (or largest, depending on sorting order)
+element from the unsorted region and moves it to the end of the sorted region.
+The algorithm maintains two subarrays within the original array: one that is 
+already sorted and one that is unsorted. The process continues until the entire
+array is sorted.
 */
 
 #include <stdio.h>
