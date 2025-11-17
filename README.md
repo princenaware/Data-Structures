@@ -6,7 +6,7 @@ This is a list of few topics related to Data structures and their theory, syntax
 ## Theory
 Linear search (also called sequential search) is a simple searching algorithm used to find a given element in a list. It checks each element of the list sequentially until the desired element is found or the list ends. Linear search works on both sorted and unsorted arrays but is less efficient on large datasets compared to binary search.
 
-When to use:
+When to use:-
 - Small arrays or lists.
 - When the array is unsorted and sorting is more expensive than linear search.
 
