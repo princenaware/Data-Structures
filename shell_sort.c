@@ -1,3 +1,6 @@
+// Aim: To implement Shell Sort algorithm in C language 
+// and sort an array of integers.
+// Date: 2024-06-15
 #include<stdio.h>
 int main() {
     int arr[100], n, i, j, gap, temp;
