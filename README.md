@@ -12,4 +12,15 @@
  4) Match: If arr[i] == key, return the index $i$ (Success).
  5) Move: If not, move to the next index ($i+1$).
  6) End: If you reach the end of the array without a match, the element is not present.
+
+##  Complexity Analysis 
+In DSA, we measure how "heavy" an algorithm is using Big O Notation.
+
+Time Complexity:
+     Best Case: $O(1)$ — Occurs when the element you are looking for is at the first position.
+     Average Case: $O(n)$ — Occurs when the element is somewhere in the middle.
+     Worst Case: $O(n)$ — Occurs when the element is at the very last position or not present at all.
+     
+Space Complexity: $O(1)$ — Because we are not using any extra memory (like another array) to perform the search.
+     
  
