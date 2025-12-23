@@ -22,6 +22,10 @@ Time Complexity:
 * Worst Case: $O(n)$ — Occurs when the element is at the very last position or not present at all.
 
 Space Complexity: $O(1)$ — Because we are not using any extra memory (like another array) to perform the search.
------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+#### | Binary Search | 
+## What is Binary Search? 
+Binary Search is an efficient algorithm for finding an item from a sorted list of items.2 It works by repeatedly dividing the search interval in half.3 If the value of the search key is less than the item in the middle of the interval, you narrow the interval to the lower half.4 Otherwise, you narrow it to the upper half.52. The Logic (Step-by-Step)Requirement: Ensure the array is sorted (e.g., 10, 20, 30, 40, 50).Initialize: Set two pointers: low at the start (index 0) and high at the end (index 6$n-1$).7Find Middle: Calculate the middle index: $mid = low + \frac{high - low}{2}$.Compare:If arr[mid] == key: Success! Return the index.If arr[mid] < key: The key is in the right half. Update low = mid + 1.If arr[mid] > key: The key is in the left half. Update high = mid - 1.Repeat: Continue steps 3 and 4 until low exceeds high. If this happens, the element is not in the list.
      
  
