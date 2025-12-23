@@ -22,5 +22,6 @@ Time Complexity:
 * Worst Case: $O(n)$ — Occurs when the element is at the very last position or not present at all.
 
 Space Complexity: $O(1)$ — Because we are not using any extra memory (like another array) to perform the search.
+-----------------------------------------------------------------------------------------------------------------
      
  
