@@ -33,5 +33,14 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 3) Find Middle: Calculate the middle index: $mid = low + \frac{high - low}{2}$.
 4) Compare:If arr[mid] == key: Success! Return the index.If arr[mid] < key: The key is in the right half. Update low = mid + 1.If arr[mid] > key: The key is in the left half. Update high = mid - 1.
 5) Repeat: Continue steps 3 and 4 until low exceeds high. If this happens, the element is not in the list.
+
+### Complexity Analysis
+Binary Search is incredibly fast because it eliminates half of the remaining data in every single step.
+Time Complexity:
+*Best Case: 9$O(1)$ — The element is exactly at the middle on the first try.
+*Average Case: $O(\log n)$.
+*Worst Case: 11$O(\log n)$ — You keep dividing until only one element is left.
+
+Space Complexity: $O(1)$ — For the iterative version, as no extra memory is needed.
      
  
