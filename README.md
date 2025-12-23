@@ -22,8 +22,8 @@ Time Complexity:
 * Worst Case: $O(n)$ — Occurs when the element is at the very last position or not present at all.
 
 Space Complexity: $O(1)$ — Because we are not using any extra memory (like another array) to perform the search.
-------------------------------------------------------------------------------------------------------------------------
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## | Binary Search | 
 ### What is Binary Search? 
 Binary Search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, you narrow the interval to the lower half. Otherwise, you narrow it to the upper half.
