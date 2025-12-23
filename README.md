@@ -1,7 +1,7 @@
 # Data Structures (C Programming)
 ### Author - Prince Naware
  
-# Liner Search
+# | Liner Search |
  ## What is Linear Search?  
  Linear Search (also known as Sequential Search) is the most basic searching algorithm. It works by visiting every element in a list one by one, starting from the beginning, until the desired element is found or the list ends.
  
