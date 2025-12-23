@@ -37,9 +37,9 @@ Binary Search is an efficient algorithm for finding an item from a sorted list o
 ### Complexity Analysis
 Binary Search is incredibly fast because it eliminates half of the remaining data in every single step.
 Time Complexity:
-*Best Case: 9$O(1)$ — The element is exactly at the middle on the first try.
-*Average Case: $O(\log n)$.
-*Worst Case: 11$O(\log n)$ — You keep dividing until only one element is left.
+* Best Case: 9$O(1)$ — The element is exactly at the middle on the first try.
+* Average Case: $O(\log n)$.
+* Worst Case: 11$O(\log n)$ — You keep dividing until only one element is left.
 
 Space Complexity: $O(1)$ — For the iterative version, as no extra memory is needed.
      
